@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en" />
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" type="text/css" href="./frontend/libraries/bootstrap/css/bootstrap.min.css" />
+  <!-- font Awesome CSS -->
+  <link rel="stylesheet" type="text/css" href="./frontend/libraries/fontawesome/fontawesome-all.min.css" />
+  <!-- my css -->
+  <link rel="stylesheet" type="text/css" href="./frontend/styles/main.css" />
+
+  <title>Nomads</title>
+</head>
+
+<body>
+
+  <!--start navbar -->
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <a class="navbar-brand" href="#">
+        <img src="frontend/images/logo_nomads.png" alt="logo NOMADS">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto mr-3">
+          <li class="nav-item mx-md-2">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item mx-md-2">
+            <a class="nav-link" href="#">Paket Travel</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">
+              Services
+            </a>
+            <div class="dropdown-menu">
+              <div class="dropdown-item" href="#">VISA</div>
+              <div class="dropdown-item" href="#">PASPORT</div>
+            </div>
+          </li>
+          <li class="nav-item mx-md-2">
+            <a class="nav-link" href="#">Testimonial</a>
+          </li>
+        </ul>
+
+        <!-- mobile button -->
+        <form action="" class="form-inline d-sm-block d-md-none">
+          <button type="button" class="btn btn-primary btn-login my-2 my-sm-0 px-4">Masuk</button>
+        </form>
+
+        <!-- dekstop button -->
+        <form action="" class="form-inline my-2 my-lg-0 d-none d-md-block">
+          <button type="button" class="btn btn-primary btn-login btn-navbar-right my-2 my-sm-0 px-4">Masuk</button>
+        </form>
+      </div>
+    </nav>
+  </div>
+  <!-- end navbar -->
+
+  <!-- start header -->
+  <header class="text-center">
+    <h1>
+      Explore The Beautiful World <br> As Easy One Click
+    </h1>
+    <p class="mt-3">
+      You will see Beautiful <br> moment you never see before
+    </p>
+    <a href="#" class="btn btn-started px-4 mt-4">Get Started</a>
+  </header>
+  <!-- end header -->
+
+  <!-- contentt -->
+  <main>
+    <!-- stats -->
+    <div class="container">
+      <section class="section-stats row justify-content-center" id="stats">
+        <div class="col-md-2 col-3 stats-detail">
+          <h2>20K</h2>
+          <p>Members</p>
+        </div>
+        <div class="col-md-2 col-3 stats-detail">
+          <h2>12</h2>
+          <p>Countries</p>
+        </div>
+        <div class="col-md-2 col-3 stats-detail">
+          <h2>5K</h2>
+          <p>Hotel</p>
+        </div>
+        <div class="col-md-2 col-3 stats-detail">
+          <h2>72</h2>
+          <p>Partners</p>
+        </div>
+      </section>
+    </div>
+    <!-- end stats -->
+
+    <!-- start wisata populer -->
+    <section class="section-popular" id="popular">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center section-popular-heading">
+            <h2>Wisata Popular</h2>
+            <p>Somthing that you never try <br> before in this world</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end wisata populer -->
+
+    <!-- start popular content -->
+    <section class="section-popular-content" id="popularContent">
+      <div class="container">
+        <section class="section-travel row justify-content-center">
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card-travel text-center d-flex flex-column" style="background-image: url('');">
+              <div class="travel-country">INDONESIA</div>
+              <div class="travel-location">DERETAN, BALI</div>
+              <div class="travel-button mt-auto">
+                <a href="./detail.html" class="btn btn-travel-details px-4 ">View Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card-travel text-center d-flex flex-column" style="background-image: url('');">
+              <div class="travel-country">INDONESIA</div>
+              <div class="travel-location">BROMO,MALANG</div>
+              <div class="travel-button mt-auto">
+                <a href="./detail.html" class="btn btn-travel-details px-4 ">View Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card-travel text-center d-flex flex-column" style="background-image: url('');">
+              <div class="travel-country">INDONESIA</div>
+              <div class="travel-location">NUSA PENINDA</div>
+              <div class="travel-button mt-auto">
+                <a href="./detail.html" class="btn btn-travel-details px-4 ">View Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card-travel text-center d-flex flex-column" style="background-image: url('');">
+              <div class="travel-country">MIDDLE EAST</div>
+              <div class="travel-location">DUBAI</div>
+              <div class="travel-button mt-auto">
+                <a href="./detail.html" class="btn btn-travel-details px-4 ">View Details</a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+    <!-- end popular content -->
+
+    <!-- network -->
+    <section class="section-network">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h2>Our Network</h2>
+            <p>Copanies are trusted us <br> more than just a trip</p>
+          </div>
+          <div class="col-md-2 text-center">
+            <img src="frontend/images/logo/ana.png" alt="">
+          </div>
+          <div class="col-md-2 text-center">
+            <img src="frontend/images/logo/shangri-la.png" alt="">
+          </div>
+          <div class="col-md-2 text-center">
+            <img src="frontend/images/logo/disney.png" alt="">
+          </div>
+          <div class="col-md-2 text-center">
+            <img src="frontend/images/logo/visa.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end network -->
+
+    <!-- start testimonial heading -->
+    <section class="section-testimonial-heading" id="testimonialHeading">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h2>They Are Loving Us</h2>
+            <p>Moments were giving then <br> the best experience</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end testimonial heading -->
+
+    <!-- start testimonial content -->
+    <section class="section-testimonial-content" id="testimonialContent">
+      <div class="container">
+        <div class="section-testimonial-travel row justify-content-center">
+
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <div class="card card-testimonial text-center">
+              <div class="testimonial-content">
+                <img src="./frontend/images/testimonial.jpg" class="mb-4 rounded-circle" width="200px">
+                <h3 class="mb-4">Ilzam Afif</h3>
+                <p class="testimonial">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, totam?tetur adipisicing elit. Adipisci, totam?"</p>
+              </div>
+              <hr>
+              <p class="trip-to mt-2">
+                Trip to Uhud
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <div class="card card-testimonial text-center">
+              <div class="testimonial-content">
+                <img src="./frontend/images/testimonial.jpg" class="mb-4 rounded-circle" width="200px">
+                <h3 class="mb-4">Ilzam Afif</h3>
+                <p class="testimonial">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, totam?tetur adipisicing elit. Adipisci, totam?"</p>
+              </div>
+              <hr>
+              <p class="trip-to mt-2">
+                Trip to Karimun Jawa
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <div class="card card-testimonial text-center">
+              <div class="testimonial-content">
+                <img src="./frontend/images/testimonial.jpg" class="mb-4 rounded-circle" width="200px">
+                <h3 class="mb-4">Ilzam Afif</h3>
+                <p class="testimonial">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, totam?tetur adipisicing elit. Adipisci, totam?"</p>
+              </div>
+              <hr>
+              <p class="trip-to mt-2">
+                Trip to Nusa Paninda
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col-12 text-center">
+            <a href="#" class="btn btn-need-help px-4 mt-4 mx-1">I Need Help</a>
+            <a href="#" class="btn btn-get-started px-4 mt-4 mx-1">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end testimonial content -->
+  </main>
+  <!-- end contentt -->
+
+  <!-- start footer -->
+  <footer class="section-footer mt-5 mb-4 border-top">
+    <div class="container pt-5 pb-5">
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <div class="row">
+            <div class="col-12 col-lg-3">
+              <h5>FEATURES</h5>
+              <ul class="list-unstyled">
+                <li><a href="#">Review</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Social Media kit</a></li>
+                <li><a href="#">Affiliate</a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-lg-3">
+              <h5>ACCOUNT</h5>
+              <ul class="list-unstyled">
+                <li><a href="#">Refund</a></li>
+                <li><a href="#">Securiti</a></li>
+                <li><a href="#">Reward</a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-lg-3">
+              <h5>COMPANY</h5>
+              <ul class="list-unstyled">
+                <li><a href="#">Career</a></li>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Media</a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-lg-3">
+              <h5>GET CONNECTED</h5>
+              <ul class="list-unstyled">
+                <li><a href="#">Temanggung</a></li>
+                <li><a href="#">Indonesia</a></li>
+                <li><a href="#">0895 0951 0938</a></li>
+                <li><a href="#">support@nomads.co.id</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row border-top justify-content-center pt-4">
+        <div class="col-auto text-gray-500 font-weight-light">
+          2021 Copyright Nomads | All Right Reserved | made in temanggung
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- end footer -->
+
+
+  <!-- jQuery -->
+  <script src="./frontend/libraries/jquery/jQuery-3.5.1.min.js"></script>
+  <!-- popper -->
+  <script src="./frontend/libraries/popper/popper.min.js"></script>
+  <!-- Bootstrap js -->
+  <script src="./frontend/libraries/bootstrap/js/bootstrap.min.js"></script>
+  <!-- retina js -->
+  <script src="./frontend/libraries/retina/retina.min.js"></script>
+</body>
+
+</html>
