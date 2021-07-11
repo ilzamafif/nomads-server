@@ -29,15 +29,32 @@
           </li>
         </ul>
 
+        @guest
         <!-- mobile button -->
-        <form action="" class="form-inline d-sm-block d-md-none">
-          <button type="button" class="btn btn-primary btn-login my-2 my-sm-0 px-4">Masuk</button>
+        <form class="form-inline d-sm-block d-md-none">
+          <button type="button" class="btn btn-primary btn-login my-2 my-sm-0 px-4" onclick="event.preventDefault(); location.href=`{{ url('login') }}`;">Masuk</button>
         </form>
 
         <!-- dekstop button -->
-        <form action="" class="form-inline my-2 my-lg-0 d-none d-md-block">
-          <button type="button" class="btn btn-primary btn-login btn-navbar-right my-2 my-sm-0 px-4">Masuk</button>
+        <form class="form-inline my-2 my-lg-0 d-none d-md-block">
+          <button type="button" class="btn btn-primary btn-login btn-navbar-right my-2 my-sm-0 px-4" onclick="event.preventDefault(); location.href=`{{ url('login') }}`;">Masuk</button>
         </form>
+        @endguest
+
+        @auth
+        <!-- mobile button -->
+        <form action="{{ url('logout') }}" method="POST" class="form-inline d-sm-block d-md-none">
+          @csrf
+          <button type="submit" class="btn btn-primary btn-login my-2 my-sm-0 px-4">Keluar</button>
+        </form>
+
+        <!-- dekstop button -->
+        <form action="{{ url('logout') }}" method="POST" class="form-inline my-2 my-lg-0 d-none d-md-block">
+          @csrf
+          <button type="submit" class="btn btn-primary btn-login btn-navbar-right my-2 my-sm-0 px-4">Keluar</button>
+        </form>
+        @endauth
+
       </div>
     </nav>
   </div>
