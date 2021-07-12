@@ -22,9 +22,9 @@
                 <th>ID</th>
                 <th>Title</th>
                 <th>Location</th>
-                <th>Title</th>
-                <th>Departure Date</th>
                 <th>Type</th>
+                <th>Departure Date</th>
+                <th>Price</th>
                 <th>Action</th>
               </tr>
             </thead>
@@ -38,11 +38,11 @@
                 <td>{{ $item->departure_date }}</td>
                 <td>{{ $item->price }}</td>
                 <td>
-                  <a href="{{ route('travel-package.edit', $items->id) }}" class="btn btn-info"> <i class="fa fa-pencil-alt"></i> </a>
-                  <form action="{{ route('travel-package.destroy', $items->id) }}" method="POST" class="d-inline">
+                  <a href="{{ route('travel-package.edit', $item->id) }}" class="btn btn-info"> <i class="fa fa-pencil-alt"></i> </a>
+                  <form action="{{ route('travel-package.destroy', $item->id) }}" method="POST" class="d-inline">
                     @csrf
                     @method('delete')
-                    <button class="btn-btn-danger">
+                    <button class="btn btn-danger">
                       <i class="fa fa-trash"></i>
                     </button>
                   </form>
