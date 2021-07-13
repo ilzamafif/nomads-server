@@ -31,7 +31,7 @@
                 <td>{{ $item->id }}</td>
                 <td>{{ $item->travel_package->title }}</td>
                 <td>
-                  <img src="{{ Storage::url('$item->image') }}" class="img-thumbnail" style="width: 150px;" alt="{{ $item->travel_package->title }}">
+                  <img src="{{ Storage::url($item->image) }}" class="img-thumbnail" style="width: 150px;" alt="{{ $item->travel_package->title }}">
                 </td>
                 <td>
                   <a href="{{ route('gallery.edit', $item->id) }}" class="btn btn-info"> <i class="fa fa-pencil-alt"></i> </a>
