@@ -31,6 +31,7 @@ Route::prefix('admin')
         Route::get('/', 'DashboardController@index')->name('dashboard');
 
         Route::resource('travel-package', TravelPackageController::class);
+        Route::resource('gallery', GalleryController::class);
     });
 
 Auth::routes(['verify' => true]);

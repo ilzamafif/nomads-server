@@ -23,8 +23,8 @@
   </li>
 
   <li class="nav-item">
-    <a class="nav-link" href="index.html">
-      <i class="fas fa-fw fa-images"></i>
+    <a class="nav-link" href="{{ route('gallery.index') }}">
+      <i class=" fas fa-fw fa-images"></i>
       Galleri Travel</a>
   </li>
 
