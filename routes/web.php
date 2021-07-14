@@ -32,6 +32,7 @@ Route::prefix('admin')
 
         Route::resource('travel-package', TravelPackageController::class);
         Route::resource('gallery', GalleryController::class);
+        Route::resource('transaction', TransactionController::class);
     });
 
 Auth::routes(['verify' => true]);

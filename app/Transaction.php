@@ -3,9 +3,12 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Transaction extends Model
 {
+    use SoftDeletes;
+
     protected $fillable = [
         'travel_packages_id', 'users_id', 'additional_visa', 'transaction_total', 'transaction_status'
     ];
@@ -14,7 +17,7 @@ class Transaction extends Model
 
     public function details()
     {
-        return $this->HasMany(TransactionDetail::class, 'transaction', 'id');
+        return $this->HasMany(TransactionDetail::class, 'transactions_id', 'id');
     }
 
     public function travel_package()
