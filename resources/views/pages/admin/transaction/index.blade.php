@@ -37,6 +37,7 @@
                 <td>{{ $item->transaction_status }}</td>
                 <td>
                   <a href="{{ route('transaction.show', $item->id) }}" class="btn btn-primary"> <i class="fa fa-eye"></i> </a>
+                  <a href="{{ route('transaction.edit', $item->id) }}" class="btn btn-info"> <i class="fa fa-pencil-alt"></i> </a>
                   <form action="{{ route('transaction.destroy', $item->id) }}" method="POST" class="d-inline">
                     @csrf
                     @method('delete')
