@@ -183,19 +183,18 @@
   @endsection
 
   @push('prepend-style')
-  <!-- gijgo -->
-  <link rel="stylesheet" href="{{ url('frontend/libraries/gijgo/css/gijgo.min.css') }}">
+  <link rel="stylesheet" href="{{ url('frontend/libraries/gijgo/css/gijgo.min.css') }}" />
   @endpush
-  @push('prepend-style')
-  <!-- gijgo -->
-  <script src="./frontend/libraries/gijgo/js/gijgo.min.js"></script>
+
+  @push('addon-script')
+  <script src="{{ url('frontend/libraries/gijgo/js/gijgo.min.js') }}"></script>
   <script>
     $(document).ready(function() {
       $('.datepicker').datepicker({
         format: 'yyyy-mm-dd',
-        uilibrary: 'bootstrap4',
+        uiLibrary: 'bootstrap4',
         icons: {
-          righticon: `<img src="{{ url('frontend/images/ic_doe.png') }}">`
+          rightIcon: `<img src="{{ url('frontend/images/ic_doe.png ') }}" />`
         }
       });
     });
