@@ -238,8 +238,8 @@ main .section-testimonial-content .btn-get-started:hover {
 
 .section-details-header {
   min-height: 310px;
-  background: #e4e6e8;
-  margin-top: -70px;
+  background: #e4e6eb;
+  margin-top: -68px;
 }
 
 .section-details-content {
@@ -308,13 +308,14 @@ main .section-testimonial-content .btn-get-started:hover {
 }
 
 .section-details-content .card-details .gallery .xzoom-container .xzoom {
-  width: 100px;
+  width: 100%;
   -webkit-box-shadow: none;
           box-shadow: none;
+  margin-bottom: 10px;
 }
 
 .section-details-content .card-details .gallery .xzoom-container .xactive {
-  border: 4px solid #1abc9c;
+  border: 2px solid #1abc9c;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
