@@ -21,8 +21,11 @@ Route::get('/', function () {
 
 Route::get('/', 'HomeController@index')->name('home');
 Route::get('/detail/{slug}', 'DetailController@index')->name('detail');
-Route::get('/checkout', 'CheckoutController@index')->name('checkout');
-Route::get('/success', 'CheckoutController@success')->name('checkout-sukses');
+Route::get('/checkout/{id}', 'CheckoutController@index')->name('checkout')->middleware(['auth', 'verived']);
+Route::post('/checkout/{id}', 'CheckoutController@proccess')->name('checkout-proccess')->middleware(['auth', 'verived']);
+Route::post('/checkout/create/{detail_id}', 'CheckoutController@create')->name('checkout-create')->middleware(['auth', 'verived']);
+Route::post('/checkout/remove/{detail_id}', 'CheckoutController@remove')->name('checkout-remove')->middleware(['auth', 'verived']);
+Route::post('/checkout/comfirm/{id}', 'CheckoutController@success')->name('checkout-success')->middleware(['auth', 'verived']);
 
 Route::prefix('admin')
     ->namespace('Admin')
