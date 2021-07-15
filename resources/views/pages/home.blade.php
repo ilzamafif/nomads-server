@@ -121,9 +121,10 @@ Nomads
         <div class="col-sm-6 col-md-6 col-lg-4">
           <div class="card card-testimonial text-center">
             <div class="testimonial-content">
-              <img src="./frontend/images/testimonial.jpg" class="mb-4 rounded-circle" width="200px">
+              <img src="./frontend/images/testimonial-1.png" class="mb-4 rounded-circle" width="200px">
               <h3 class="mb-4">Ilzam Afif</h3>
-              <p class="testimonial">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, totam?tetur adipisicing elit. Adipisci, totam?"</p>
+              <p class="testimonial"> “ It was glorious and I could not stop to say wohooo for
+                every single moment Dankeeeeee “</p>
             </div>
             <hr>
             <p class="trip-to mt-2">
@@ -134,9 +135,10 @@ Nomads
         <div class="col-sm-6 col-md-6 col-lg-4">
           <div class="card card-testimonial text-center">
             <div class="testimonial-content">
-              <img src="./frontend/images/testimonial.jpg" class="mb-4 rounded-circle" width="200px">
+              <img src="./frontend/images/testimonial-3.png" class="mb-4 rounded-circle" width="200px">
               <h3 class="mb-4">Ilzam Afif</h3>
-              <p class="testimonial">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, totam?tetur adipisicing elit. Adipisci, totam?"</p>
+              <p class="testimonial"> “ The trip was amazing and I saw something beautiful in that
+                Island that makes me want to learn more “</p>
             </div>
             <hr>
             <p class="trip-to mt-2">
@@ -147,9 +149,10 @@ Nomads
         <div class="col-sm-6 col-md-6 col-lg-4">
           <div class="card card-testimonial text-center">
             <div class="testimonial-content">
-              <img src="./frontend/images/testimonial.jpg" class="mb-4 rounded-circle" width="200px">
+              <img src="./frontend/images/testimonial-2.png" class="mb-4 rounded-circle" width="200px">
               <h3 class="mb-4">Ilzam Afif</h3>
-              <p class="testimonial">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, totam?tetur adipisicing elit. Adipisci, totam?"</p>
+              <p class="testimonial">“ I loved it when the waves was shaking harder — I was
+                scared too “</p>
             </div>
             <hr>
             <p class="trip-to mt-2">
@@ -163,7 +166,7 @@ Nomads
       <div class="row">
         <div class="col-12 text-center">
           <a href="#" class="btn btn-need-help px-4 mt-4 mx-1">I Need Help</a>
-          <a href="#" class="btn btn-get-started px-4 mt-4 mx-1">Get Started</a>
+          <a href="{{ route('register') }}" class="btn btn-get-started px-4 mt-4 mx-1">Get Started</a>
         </div>
       </div>
     </div>
