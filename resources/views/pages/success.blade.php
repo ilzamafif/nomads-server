@@ -7,14 +7,20 @@ Checkout Sukses
 @section('content')
 <!-- start content -->
 <main>
-  <section class="section-success d-flex align-items-center">
+  <div class="section-success d-flex align-items-center">
     <div class="col text-center">
-      <img src="{{ url('frontend/images/success-checkout.png') }}" class="success-image">
-      <h1>Yay Sukses</h1>
-      <p>We've sent yau email for trip instruction <br> please read it is well</p>
-      <a href="index.html" class="btn btn-home-page mt-3 px-5">home page</a>
+      <img src="{{ url('frontend/images/ic_mail.png') }}" alt="" />
+      <h1>Yay! Success</h1>
+      <p>
+        We’ve sent you email for trip instruction
+        <br />
+        please read it as well
+      </p>
+      <a href="{{ url('/') }}" class="btn btn-home-page mt-3 px-5">
+        Home Page
+      </a>
     </div>
-  </section>
+  </div>
 </main>
 <!-- end content -->
 @endsection

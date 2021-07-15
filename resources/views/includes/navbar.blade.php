@@ -2,7 +2,7 @@
   <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
       <a class="navbar-brand" href="#">
-        <img src="frontend/images/logo_nomads.png" alt="logo NOMADS">
+        <img src="{{ url('frontend/images/logo_nomads.png') }}" alt="logo NOMADS">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
