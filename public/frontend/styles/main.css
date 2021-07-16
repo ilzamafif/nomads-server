@@ -307,7 +307,7 @@ main .section-testimonial-content .btn-get-started:hover {
 }
 
 .section-details-content .card-details .gallery .xzoom-container .xzoom {
-  width: 100px;
+  width: 100%;
   -webkit-box-shadow: none;
           box-shadow: none;
 }

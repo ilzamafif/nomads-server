@@ -9,6 +9,9 @@ use App\TransactionDetail;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Auth;
 
+use Illuminate\Support\Facades\Mail;
+use App\Mail\TransactionSuccess;
+
 class CheckoutController extends Controller
 {
     public function index(Request $request, $id)
@@ -93,6 +96,11 @@ class CheckoutController extends Controller
         $transaction->transaction_status = 'PENDING';
 
         $transaction->save();
+
+        // kirim email ke users
+        Mail::to($transaction->user)->send(
+            new TransactionSuccess($transaction)
+        );
 
         return view('pages.success');
     }
