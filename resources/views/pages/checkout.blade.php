@@ -92,8 +92,8 @@
                   <label for="is_visa" class="sr-only">Visa</label>
                   <select name="is_visa" id="" class="custom-select mb-2 mr-sm-2" required>
                     <option value="VISA">Visa</option>
-                    <option value="30 days">30 Days</option>
-                    <option value="N/A">N/A</option>
+                    <option value="1">30 Days</option>
+                    <option value="0">N/A</option>
                   </select>
 
                   <label for="doe_passport" class="sr-only">DEO Passport</label>

@@ -518,3 +518,45 @@ main {
     margin-top: -30px;
   }
 }
+
+// login 
+.login-container{
+  @media screen and (min-width: 992px ){
+    background: linear-gradient(90deg, #fff 60%, #E4E6E8 40% );
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+.page-login{
+  height: 100vh;
+
+  .btn-login{
+    background-color: #FF9E53;
+    color: #fff;
+
+    &:hover{
+      color: #E4E6E8;
+    }
+  }
+}
+
+.section-left{
+  h1{
+    font-family: 'Playfiar Display';
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    color: #071C4D;
+  }
+}
+.section-right{
+  a{
+    font-family: 'Assistant';
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    color: #b1b1b1;
+  }
+}

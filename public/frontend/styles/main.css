@@ -41,7 +41,6 @@ header {
   background-color: #efefef;
   margin-top: -70px;
   background-size: cover;
-  background-image: url("../images/header.jpg");
 }
 
 header h1 {
@@ -238,8 +237,8 @@ main .section-testimonial-content .btn-get-started:hover {
 
 .section-details-header {
   min-height: 310px;
-  background: #e4e6eb;
-  margin-top: -68px;
+  background: #e4e6e8;
+  margin-top: -70px;
 }
 
 .section-details-content {
@@ -308,14 +307,13 @@ main .section-testimonial-content .btn-get-started:hover {
 }
 
 .section-details-content .card-details .gallery .xzoom-container .xzoom {
-  width: 100%;
+  width: 100px;
   -webkit-box-shadow: none;
           box-shadow: none;
-  margin-bottom: 10px;
 }
 
 .section-details-content .card-details .gallery .xzoom-container .xactive {
-  border: 2px solid #1abc9c;
+  border: 4px solid #1abc9c;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
@@ -463,5 +461,44 @@ main .section-testimonial-content .btn-get-started:hover {
 
 .section-success .success-image {
   margin-top: -30px;
+}
+
+@media screen and (min-width: 992px) {
+  .login-container {
+    background: -webkit-gradient(linear, left top, right top, color-stop(60%, #fff), color-stop(40%, #E4E6E8));
+    background: linear-gradient(90deg, #fff 60%, #E4E6E8 40%);
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+.page-login {
+  height: 100vh;
+}
+
+.page-login .btn-login {
+  background-color: #FF9E53;
+  color: #fff;
+}
+
+.page-login .btn-login:hover {
+  color: #E4E6E8;
+}
+
+.section-left h1 {
+  font-family: 'Playfiar Display';
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  color: #071C4D;
+}
+
+.section-right a {
+  font-family: 'Assistant';
+  font-weight: 300;
+  text-decoration: none;
+  font-size: 16px;
+  text-align: center;
+  color: #b1b1b1;
 }
 /*# sourceMappingURL=main.css.map */
