@@ -1,0 +1,12 @@
+env: production
+commands:
+  - yarn install
+  - yarn run prod
+  - php artisan migrate
+services:
+  app:
+    build:
+      dockerfile: Dockerfile
+    env:
+      APP_ENV: production
+    port: 8080
