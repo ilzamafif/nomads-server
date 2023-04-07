@@ -29,7 +29,7 @@ Route::get('/checkout/confirm/{id}', 'CheckoutController@success')->name('checko
 
 Route::prefix('admin')
     ->namespace('Admin')
-    ->middleware(['auth', 'admin'])
+    ->middleware(['auth'])
     ->group(function () {
         Route::get('/', 'DashboardController@index')->name('dashboard');
 
